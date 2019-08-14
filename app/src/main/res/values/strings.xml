@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Golden Record</string>
+    <string name="app_title">Golden\nRecord</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">next</string>
+    <string name="skip">skip</string>
+    <string name="start">got it</string>
+
+    <string name="slide_1_title">What\'s this?</string>
+    <string name="slide_1_desc">Choose from the picture data of the original 1977 Voyager Golden Record\nto make your own message in form of a coded pattern.</string>
+
+    <string name="slide_2_title">What can I do?</string>
+    <string name="slide_2_desc">Make your own version by clicking on items from the list on your left.\nEach item will be represented with a form on your screen.</string>
+
+    <string name="slide_3_title">Enjoy!</string>
+    <string name="slide_3_desc">After you’re done save and share your image.</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="whatsthis_text">What\'s this all about?</string>
+    <string name="create_text">Create new message</string>
+    <string name="back_button">back</string>
+    <string name="share_button">share</string>
+    <string name="new_button">new</string>
+    <string name="assets_file_extension">gif</string>
+    <string name="share_button_description">Share generated image</string>
+    <string name="gallery_text">Gallery</string>
+
+</resources>

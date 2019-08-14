@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="80dp"
+    android:background="@android:color/white"
+    android:layout_centerHorizontal="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="@style/TitleFont"
+            android:lineSpacingMultiplier="0.8"
+            android:text="@string/app_title" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="5dp"
+            android:src="@drawable/record" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/ButtonFont"
+            android:background="@null"
+            android:text="@string/create_text" />
+
+        <Button
+            android:id="@+id/btn_what"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextFont"
+            android:background="@null"
+            android:text="@string/whatsthis_text" />
+    </LinearLayout>
+</RelativeLayout>-->
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:weightSum="2.15"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.15"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TitleFont"
+                android:lineSpacingMultiplier="0.8"
+                android:text="@string/app_title" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/record" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/ButtonFont"
+                android:textAlignment="center"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:text="@string/create_text" />
+
+            <Button
+                android:id="@+id/btn_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/ButtonFont"
+                android:textAlignment="center"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:text="@string/gallery_text"
+                />
+                <!--android:layout_marginTop="-10dp"-->
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_what"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:textAppearance="@style/TextFont"
+            android:textAlignment="center"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:text="@string/whatsthis_text" />
+    </LinearLayout>
+</LinearLayout>
